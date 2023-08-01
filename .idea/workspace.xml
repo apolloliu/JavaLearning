@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58f15f01-82dd-4c2d-9833-a44c3c12c8fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springlearning/service/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springlearning/service/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springlearning/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springlearning/spring/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springlearning/spring/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/springlearning/spring/ComponentScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/proxy/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/proxy/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/proxy/ProxyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/proxy/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/StrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/StrategyB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/StrategyC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/StrategyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/distributionLeaning/DistributedLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/BasicType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,11 +51,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/program/Java/springstart",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,13 +67,53 @@
       <recent name="com.springlearning.spring" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springlearning.service.Main" />
+  <component name="RunManager" selected="Application.BasicType">
+    <configuration name="BasicType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.BasicType" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springlearning.service.*" />
+          <option name="PATTERN" value="com.javalearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.proxy.ProxyPatternDemo" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpattern.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.strategy.StrategyPatternDemo" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.designpattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,7 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BasicType" />
+        <item itemvalue="Application.ProxyPatternDemo" />
+        <item itemvalue="Application.StrategyPatternDemo" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +140,15 @@
       <option name="presentableId" value="Default" />
       <updated>1675179873357</updated>
       <workItem from="1675179875001" duration="2140000" />
+      <workItem from="1675481273819" duration="10485000" />
+      <workItem from="1675870785017" duration="1262000" />
+      <workItem from="1676476487850" duration="2045000" />
+      <workItem from="1677933782326" duration="6482000" />
+      <workItem from="1678501545382" duration="124000" />
+      <workItem from="1685025131830" duration="849000" />
+      <workItem from="1685109076175" duration="799000" />
+      <workItem from="1685243353463" duration="1699000" />
+      <workItem from="1685760434394" duration="49000" />
     </task>
     <servers />
   </component>
