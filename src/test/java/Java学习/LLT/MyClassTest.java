@@ -1,9 +1,7 @@
 package Java学习.LLT;
 
 import Java学习.LLT.retry.RetryTestTemplateProvider;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestTemplate;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 //@RetryConfig(retries = 3, delay = 1000)
@@ -11,8 +9,17 @@ import org.junit.jupiter.api.extension.ExtendWith;
 //@RetryTestTemplate
 //@RetryExtension.RetryConfig(retries = 3, delay = 3000)
 @ExtendWith(RetryTestTemplateProvider.class)
-class MyClassTest {
+public class MyClassTest {
 
+    @BeforeEach
+    public void setUp() {
+        System.out.println("beforeEach");
+    }
+
+    @AfterEach
+    public void tearDown() {
+        System.out.println("afterEach");
+    }
 //    @Test
     @TestTemplate
 //    @Test
@@ -22,4 +29,19 @@ class MyClassTest {
         Assertions.assertTrue(test);
 //        throw new Exception("test");
     }
+
+    @TestTemplate
+    public void test2() throws Exception {
+        System.out.println("test2");
+        boolean test = true;
+        Assertions.assertTrue(test);
+    }
+
+    @Test
+    public void test3() throws Exception {
+        System.out.println("test3");
+        boolean test = true;
+        Assertions.assertTrue(test);
+    }
+
 }

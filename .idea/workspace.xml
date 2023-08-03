@@ -4,22 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58f15f01-82dd-4c2d-9833-a44c3c12c8fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/proxy/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/proxy/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/proxy/ProxyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/proxy/RealImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/StrategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/StrategyB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/StrategyC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/StrategyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/distributionLeaning/DistributedLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javalearning/BasicType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="949d87c2-b754-4ec7-892a-c578c878e657" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DistributedLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/LLT/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/jvm/StringTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/多态与继承.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/多线程/同步关键字.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/泛型/Eraser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/泛型/Eraser1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/泛型/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/反射/反射相关.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/反射/实例化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/受检异常复写.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/多线程/Interrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/序列化/SerializableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/序列化/SerializableClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/序列化/序列化测试.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/异常继承/异常继承测试.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/接口继承/Inter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/接口继承/TestInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/浮点精度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/类初始化/类初始化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/类相关/子类/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/类相关/子类/Eat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/类相关/父类/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/类静态方法/类实例调用静态方法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/线程异常.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/编程实践/异常比较.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/编程实践/控制语句.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/编程实践/泛型.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/编程实践/运算符和表达式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java学习/科目二/通配符/通配符.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bean注入原理学习/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bean注入原理学习/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/codingPractice/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/codingPractice/Chitangjishu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/codingPractice/Demo4Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/codingPractice/Gududezhaopian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/codingPractice/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/codingPractice/统计次数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/自定义注解/AuditLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/自定义注解/AuditLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/自定义注解/config/CustomizationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例模式/单例内部类实现.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例模式/单例枚举.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例模式/懒汉式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例模式/懒汉式优化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/单例模式/饿汉式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/DuckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/设计模式/策略模式/Squeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/LLT/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/LLT/MyClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/LLT/RetryExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/LLT/RetryTestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/LLT/RetryTestTemplateProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/LLT/retry/RetryTestExecutionExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/LLT/retry/RetryTestTemplateProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/泛型/AnimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/泛型/Eraser1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java学习/泛型/EraserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/Demo4ApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +95,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="package-info" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -38,42 +105,97 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk-17.0.5/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-17.0.5/lib/src.zip!/java.base/java/util/TreeMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-17.0.5/lib/src.zip!/java.base/java/util/TreeSet.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2L67q8lnzzzpIKIV8H8lwtxIv4E" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\program\Java\repo" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectId" id="2JhyM5wrwLVrLa5yEUyS59LYQv2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/program/Java/springstart",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/program/Java/demo4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7b1312a1b3e74bb174b3fbbf68ab5a92&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Java学习.LLT" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\program\Java\demo4\src\test\java\Java学习\LLT" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Java学习.LLT" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Java学习.LLT" />
+      <recent name="Java学习.泛型" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.springlearning.spring" />
+      <recent name="Java学习.泛型" />
+      <recent name="Java学习.科目二.序列化" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BasicType">
-    <configuration name="BasicType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalearning.BasicType" />
-      <module name="JavaLearning" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MyClassTest">
+    <configuration name="同步关键字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.多线程.同步关键字" />
+      <module name="demo4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javalearning.*" />
+          <option name="PATTERN" value="Java学习.多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,26 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JavaLearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JavaLearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProxyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpattern.proxy.ProxyPatternDemo" />
-      <module name="JavaLearning" />
+    <configuration name="StringTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.jvm.StringTable" />
+      <module name="demo4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpattern.proxy.*" />
+          <option name="PATTERN" value="Java学习.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +216,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpattern.strategy.StrategyPatternDemo" />
-      <module name="JavaLearning" />
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="demo4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="多态与继承" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.多态与继承" />
+      <module name="demo4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpattern.strategy.*" />
+          <option name="PATTERN" value="Java学习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,38 +235,412 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="懒汉式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.单例模式.懒汉式" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.单例模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="类实例调用静态方法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.类静态方法.类实例调用静态方法" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.类静态方法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="懒汉式优化" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.单例模式.懒汉式优化" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.单例模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="饿汉式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.单例模式.饿汉式" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.单例模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="类初始化" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.类初始化.类初始化" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.类初始化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="通配符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.通配符.通配符" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.通配符.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="通配符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.通配符.通配符" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.通配符.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="单例内部类实现" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.单例模式.单例内部类实现" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.单例模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="运算符和表达式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.编程实践.运算符和表达式" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.编程实践.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="类初始化" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.类初始化.类初始化" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.类初始化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="序列化测试" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.序列化.序列化测试" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.序列化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="类初始化" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.类初始化.类初始化" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.类初始化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="异常比较" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.编程实践.异常比较" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.编程实践.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="实例化" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.反射.实例化" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.反射.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="泛型" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.编程实践.泛型" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.编程实践.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="异常继承测试" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.异常继承.异常继承测试" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.异常继承.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="运算符和表达式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java学习.科目二.编程实践.运算符和表达式" />
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.科目二.编程实践.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4ApplicationTests.testAudit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Demo4ApplicationTests" />
+      <option name="METHOD_NAME" value="testAudit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java学习.LLT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java学习.LLT" />
+      <option name="MAIN_CLASS_NAME" value="Java学习.LLT.MyClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.codingPractice.Demo4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBeanApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bean注入原理学习.TestBean" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.同步关键字" />
+      <item itemvalue="Application.StringTable" />
+      <item itemvalue="JUnit.MyClassTest" />
+      <item itemvalue="JUnit.Demo4ApplicationTests.testAudit" />
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Spring Boot.Demo4Application" />
+      <item itemvalue="Spring Boot.MyBeanApp" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BasicType" />
-        <item itemvalue="Application.ProxyPatternDemo" />
-        <item itemvalue="Application.StrategyPatternDemo" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="JUnit.MyClassTest" />
+        <item itemvalue="JUnit.Demo4ApplicationTests.testAudit" />
+        <item itemvalue="Application.同步关键字" />
+        <item itemvalue="Application.StringTable" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="58f15f01-82dd-4c2d-9833-a44c3c12c8fb" name="Changes" comment="" />
-      <created>1675179873357</created>
+      <changelist id="949d87c2-b754-4ec7-892a-c578c878e657" name="Changes" comment="" />
+      <created>1672544561114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675179873357</updated>
-      <workItem from="1675179875001" duration="2140000" />
-      <workItem from="1675481273819" duration="10485000" />
-      <workItem from="1675870785017" duration="1262000" />
-      <workItem from="1676476487850" duration="2045000" />
-      <workItem from="1677933782326" duration="6482000" />
-      <workItem from="1678501545382" duration="124000" />
-      <workItem from="1685025131830" duration="849000" />
-      <workItem from="1685109076175" duration="799000" />
-      <workItem from="1685243353463" duration="1699000" />
-      <workItem from="1685760434394" duration="49000" />
+      <updated>1672544561114</updated>
+      <workItem from="1672544562320" duration="121000" />
+      <workItem from="1672544694930" duration="786000" />
+      <workItem from="1672545503876" duration="82000" />
+      <workItem from="1672547271755" duration="1280000" />
+      <workItem from="1672548743199" duration="3881000" />
+      <workItem from="1672618924847" duration="3322000" />
+      <workItem from="1672929640560" duration="3901000" />
+      <workItem from="1673050694665" duration="4876000" />
+      <workItem from="1673084142427" duration="668000" />
+      <workItem from="1673882727918" duration="810000" />
+      <workItem from="1674054460621" duration="3571000" />
+      <workItem from="1674490956409" duration="886000" />
+      <workItem from="1677934023732" duration="2750000" />
+      <workItem from="1678450934213" duration="11205000" />
+      <workItem from="1678501570793" duration="100000" />
+      <workItem from="1678501704362" duration="4377000" />
+      <workItem from="1678581215552" duration="11145000" />
+      <workItem from="1678721715647" duration="1319000" />
+      <workItem from="1678806087943" duration="2151000" />
+      <workItem from="1679674020497" duration="1930000" />
+      <workItem from="1680020391914" duration="159000" />
+      <workItem from="1680428610797" duration="744000" />
+      <workItem from="1680656202441" duration="5646000" />
+      <workItem from="1680792187077" duration="594000" />
+      <workItem from="1680877996212" duration="4541000" />
+      <workItem from="1680932996235" duration="7341000" />
+      <workItem from="1681006406616" duration="8447000" />
+      <workItem from="1681135813183" duration="1261000" />
+      <workItem from="1681137378520" duration="3477000" />
+      <workItem from="1681229862893" duration="1326000" />
+      <workItem from="1681397749426" duration="1637000" />
+      <workItem from="1681656132572" duration="599000" />
+      <workItem from="1681745181640" duration="421000" />
+      <workItem from="1681914486458" duration="1164000" />
+      <workItem from="1682006284220" duration="594000" />
+      <workItem from="1682167991131" duration="4223000" />
+      <workItem from="1684540991384" duration="5639000" />
+      <workItem from="1684649915456" duration="1089000" />
+      <workItem from="1685025005942" duration="122000" />
+      <workItem from="1685025231206" duration="751000" />
+      <workItem from="1685109064726" duration="4994000" />
+      <workItem from="1686757433742" duration="3388000" />
+      <workItem from="1687278255164" duration="116000" />
+      <workItem from="1687533785820" duration="3787000" />
+      <workItem from="1687968741669" duration="195000" />
+      <workItem from="1688784622801" duration="28000" />
+      <workItem from="1690214434317" duration="1112000" />
+      <workItem from="1690470684142" duration="602000" />
+      <workItem from="1690815974785" duration="6892000" />
+      <workItem from="1690902881551" duration="4683000" />
+      <workItem from="1691075573396" duration="5689000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Java学习/LLT/MyClassTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Java学习/LLT/retry/RetryTestExecutionExtension.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Java学习/LLT/retry/RetryTestTemplateProvider.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Java学习/LLT/retry/RetryTestExecutionExtension.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo4$Test2.ic" NAME="Test2 Coverage Results" MODIFIED="1678460045087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Java学习.科目二.*</FILTER>
+    </SUITE>
   </component>
 </project>
