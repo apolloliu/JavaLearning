@@ -1,4 +1,4 @@
-package Java学习.多线程;
+package Java学习.多线程.同步关键字;
 
 public class 同步关键字 {
     static int cnt = 0;
